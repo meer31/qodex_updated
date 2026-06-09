@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 210 82% 37%;
+  --border: 214 30% 90%;
+  --primary: 210 82% 37%;
+  --primary-foreground: 0 0% 100%;
+  --muted: 214 32% 96%;
+  --muted-foreground: 215 20% 45%;
+  --accent: 214 32% 94%;
+  --input: 214 30% 90%;
+  --ring: 210 82% 37%;
+  --radius: 0.75rem;
+}
+
+@layer base {
+  * { border-color: hsl(var(--border)); }
+  body {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #ffffff;
+    color: hsl(var(--foreground));
+  }
+  html { scroll-behavior: smooth; }
+}
+
+.section-white { background-color: #ffffff; }
+.section-gray  { background-color: #f6f9fe; }
+.section-blue  { background: linear-gradient(135deg, #0b1d4e 0%, #1058a8 50%, #1a7ec8 100%); }
+
+.grid-background {
+  background-size: 48px 48px;
+  background-image:
+    linear-gradient(to right, rgba(16,88,168,0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(16,88,168,0.06) 1px, transparent 1px);
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.animate-marquee      { animation: marquee 28s linear infinite; display: flex; width: max-content; }
+.animate-marquee-slow { animation: marquee 50s linear infinite; display: flex; width: max-content; }
