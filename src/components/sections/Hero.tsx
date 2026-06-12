@@ -129,14 +129,10 @@ export function Hero() {
       </div>
 
       <div className="container mx-auto px-6 max-w-[1300px] relative z-10 flex flex-col items-center text-center pt-8">
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4 }}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/15 border border-white/25 text-sm font-medium text-white backdrop-blur-sm mb-8">
-          <Sparkles className="w-4 h-4" />
-          <span>Engineering Tomorrow's Solutions</span>
-        </motion.div>
+       
 
         <motion.h1 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.4, delay: 0.08 }}
-          className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white tracking-tight mb-6 leading-[1.05]"
+          className="text-5xl sm:text-6xl md:text-7xl lg:text-7xl font-black text-white tracking-tight mb-6 leading-[1.05]"
           style={{ textShadow: "0 2px 20px rgba(0,0,0,0.5)" }}>
           We Build Software<br />That <TypingWord />
         </motion.h1>
