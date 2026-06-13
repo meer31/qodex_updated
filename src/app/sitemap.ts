@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 import { services } from "@/data/services";
 
-const BASE_URL = "https://www.qodexsoftware.com";
+const BASE_URL = "https://www.qodex-software.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages: MetadataRoute.Sitemap = [
