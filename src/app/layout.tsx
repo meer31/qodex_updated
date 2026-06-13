@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const BASE_URL = "https://www.qodexsoftware.com";
+const BASE_URL = "https://www.qodex-software.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
@@ -46,7 +46,8 @@ export const metadata: Metadata = {
     canonical: BASE_URL,
     languages: { "en-US": BASE_URL, "en-GB": BASE_URL, "en-AU": BASE_URL },
   },
-  verification: { google: "your-google-verification-code" },
+  verification: { google: "asEDRosT3COUGPAcFXrNe7M23p4Wp1KbuRTwEEOHSTc" },
+  
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
