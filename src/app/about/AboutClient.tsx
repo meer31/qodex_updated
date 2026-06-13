@@ -80,10 +80,10 @@ export default function AboutClient() {
               className="grid grid-cols-2 gap-5"
             >
               {[
-                { value: "50+", label: "Products Shipped" },
+                { value: "10+", label: "Projects Completed" },
                 { value: "98%", label: "Client Retention" },
-                { value: "30+", label: "Team Members" },
-                { value: "15+", label: "Countries Served" },
+                { value: "10+", label: "Team Members" },
+                { value: "2+", label: "Countries Served" },
               ].map((stat, i) => (
                 <div
                   key={i}
