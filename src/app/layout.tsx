@@ -93,6 +93,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <link rel="canonical" href={BASE_URL} />
         <meta name="theme-color" content="#1058a8" />
+        <meta name="msvalidate.01" content="C39150FA34E3A522C54AB0C55234C053" />
         <link rel="alternate" hrefLang="en" href={BASE_URL} />
         <link rel="alternate" hrefLang="en-us" href={BASE_URL} />
         <link rel="alternate" hrefLang="en-gb" href={BASE_URL} />
